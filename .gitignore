@@ -9,4 +9,4 @@ airflow-webserver.pid
 webserver_config.py
 airflow.cfg
 airflow.db
-dags/scripts/config.yaml
+/home/vietlam/Desktop/DWH/dbt_dwh_dag/dags/scripts/config1.yaml
