@@ -1,0 +1,12 @@
+runcockpit:
+  outputs:
+    dev:
+      dbname: data_lake
+      host: 14.225.205.7
+      pass: root
+      port: 5432
+      schema: public
+      threads: 10
+      type: postgres
+      user: root
+  target: dev
