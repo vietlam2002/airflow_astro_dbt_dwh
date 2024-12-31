@@ -1,12 +1,12 @@
 runcockpit:
   outputs:
     dev:
-      dbname: data_lake
-      host: 14.225.205.7
-      pass: root
-      port: 5432
-      schema: public
-      threads: 10
+      dbname: runcokpit
+      host: 10.6.201.222
+      pass: password
+      port: 3000
+      schema: warehouse_data
+      threads: 1
       type: postgres
-      user: root
+      user: postgres
   target: dev

@@ -36,6 +36,11 @@ def sync_data_create_projects():
         transformed_data = transform_data(data)
         return transformed_data
     
+    @task()
+    def task_success(data):
+        if True:
+            print("DONE TASK!!")
     data = load_data_task()
     transform_data_task(data)
+    task_success(data)
 sync_data_create_projects()
